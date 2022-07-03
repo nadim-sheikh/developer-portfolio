@@ -1,11 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body {
     font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .color{
     color: orange;
+}
+
+.flexebal-contaner{
+    display: flex;
+    margin-bottom: 150px;
+}
+.text{
+    width: 50%;
+    padding-left: 2%;
+}
+.text img{
+    width: 80%;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    font-weight: 400;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 10px;
+}
+.Experiences{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-bg{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 70px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+#box1{
+    border-radius: 10px;
+    border-left: 7px solid tomato;
+}
+#box2{
+    border-radius: 10px;
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
