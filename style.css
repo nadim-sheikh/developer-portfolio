@@ -36,7 +36,7 @@ h2{
     border-radius: 10px;
 }
 .Experiences{
-    background-image: url(/images/exp-bg.png);
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -45,7 +45,7 @@ h2{
     background-repeat: no-repeat;
 }
 .dream-bg{
-    background-image: url(/images/dream-bg.png);
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     
